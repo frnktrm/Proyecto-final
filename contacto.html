@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ifizi Di Italia - Contacto</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- Menu principal -->
+    <header>
+      <div class="caja">
+        <div class="logo">
+          <a href="index.html"><img src="fotos/logo.png"></a>
+        </div>
+        <br>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="menu.html"> Menu</a>
+            <a href="sucursales.html"> Sucursales</a>
+            <a href="eventos.html"> Eventos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <br>
+      </div>
+    </header>
+    <div class="container">
+        <h1> CONTACTO </h1>
+        <form action="action_page.php">
+
+        <label for="fname">Nombre</label>
+        <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+
+        <label for="lname">Apellido</label>
+        <input type="text" id="lname" name="lastname" placeholder="tu apellido..">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="ejemplo@gmail.xom">
+
+        <label for="country">Ciudad</label>
+        <select id="country" name="country">
+            <option value="australia">Buenos Aires</option>
+            <option value="canada">Mar del Plata</option>
+            <option value="usa">Rosario</option>
+        </select>
+
+        <label for="subject">Motivo de contacto</label>
+        <textarea id="subject" name="subject" placeholder="Escribi aqui tu motivo de contacto" style="height:200px"></textarea>
+
+        <input type="submit" value="Enviar">
+
+        </form>
+    </div> 
+</body>
+</html>
