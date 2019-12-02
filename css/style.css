@@ -1,172 +1,127 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
-body{
-  font-family: 'Merriweather Sans', sans-serif;
-}
+body {
+  font-family: 'Merriweather Sans', sans-serif; }
 
-.caja{
+.caja {
   margin: auto;
   width: 100%;
-  max-width: 1170px;
-}
+  max-width: 1170px; }
 
-header{
+header {
   width: 100%;
-  background-image: url("fotos/pasta.jpg");
-}
+  background-image: url("fotos/pasta.jpg"); }
 
-.logo{
-  padding: 25px 0px;
-}
+.logo {
+  padding: 25px 0px; }
 
-.logo img{
+.logo img {
   width: 300px;
   display: block;
-  margin: auto;
-}
+  margin: auto; }
 
-.menu{
+.menu {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   text-transform: uppercase;
   max-width: 500px;
-  margin: auto;
-}
+  margin: auto; }
 
-.menu a{
+.menu a {
   text-decoration: none;
   color: green;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
-.menu a:hover{
+.menu a:hover {
   text-decoration: bold;
-  color: red;
-}
+  color: red; }
 
-.informacion{
+.informacion {
   padding: 10px 20px 20px 10px;
-  background-color: green;
-}
+  background-color: green; }
 
-.texto1{
-  width: 100%;
-}
+.texto1 {
+  width: 100%; }
 
-.informacion img{
+.informacion img {
   width: 350px;
-  height:auto;
+  height: auto;
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
+.texto2 {
+  width: 100%; }
 
-.texto2{
-  width: 100%;
-}
+.productos img {
+  width: 350px; }
 
-.productos img{
-  width: 350px;
-}
+.productos {
+  padding: 10px 20px 20px 10px; }
 
-.productos{
-  padding: 10px 20px 20px 10px;
-}
-
-.ubicacion{
+.ubicacion {
   width: 100%;
   display: inline-block;
-  background-color:red;
-}
+  background-color: red; }
 
-.ubicacion h2{
+.ubicacion h2 {
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  padding-bottom: 20px;
-
-}
+  padding-bottom: 20px; }
 
 @media only screen and (min-width: 768px) {
-  .informacion img{
-    width: 740px;
-  }
-
-  .texto1 h2{
+  .informacion img {
+    width: 740px; }
+  .texto1 h2 {
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .productos img{
-    width: 740px;
-  }
-
-  .texto2 h2{
+    padding-bottom: 10px; }
+  .productos img {
+    width: 740px; }
+  .texto2 h2 {
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
+    padding-bottom: 10px; } }
 
 @media only screen and (min-width: 1024px) {
   .informacion {
     display: grid;
     grid-template-columns: auto;
-    grid-template-areas: "box2 box1 box1"
-  }
-
-  .informacion img{
+    grid-template-areas: "box2 box1 box1"; }
+  .informacion img {
     width: 1000px;
-    grid-area: box1;
-  }
-
-  .texto1 p{
+    grid-area: box1; }
+  .texto1 p {
     text-align: center;
-    grid-area: box2;
-  }
+    grid-area: box2; }
+  .productos img {
+    width: 1000px; }
+  .texto2 p {
+    text-align: center; }
+  .carta img {
+    width: 50%; } }
 
-  .texto1 h2{
-  }
-
-  .productos img{
-    width: 1000px;
-  }
-
-  .texto2 p{
-    text-align: center;
-  }
-  .carta img{
-    width: 50%;
-  }
-
-}
-
-.carta img{
+.carta img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
-  }
+  width: 70%; }
 
 .carta {
-  background-color: #FFFFDD;
-}
+  background-color: #FFFFDD; }
 
-.carta h1{
+.carta h1 {
   text-align: center;
   text-transform: uppercase;
   padding-top: 20px;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 input[type=text], select, textarea {
   width: 100%;
@@ -176,8 +131,7 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;
-}
+  resize: vertical; }
 
 input[type=submit] {
   background-color: #4CAF50;
@@ -185,56 +139,51 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 input[type=submit]:hover {
-  background-color: #45a049;
-}
+  background-color: #45a049; }
 
 .container {
   border-radius: 5px;
   background-color: #FFFFDD;
-  padding: 20px;
-}
+  padding: 20px; }
 
 .container h1 {
-  text-align:center;
-}
+  text-align: center; }
 
-.gmap_canvas{
+.gmap_canvas {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
-.ubicacion{
+.ubicacion {
   width: 100%;
   display: inline-block;
-  background-color:red;
-}
+  background-color: red; }
 
-.eventos{
+.eventos {
   text-align: center;
   font-size: 40px;
   padding-top: 200px;
   padding-bottom: 500px;
-  background-color: #FFFFDD;
-}
+  background-color: #FFFFDD; }
 
 @keyframes animacion {
-  0% { transform: scale(1.1,1.1);}
-  25% { transform: scale(1.2,1.2);}
-  50% {transform: scale(1.3,1.3);}
-  75% { transform: scale(1.2,1.2);}
-  100% {transform: scale(1.1,1.1);}
-}
+  0% {
+    transform: scale(1.1, 1.1); }
+  25% {
+    transform: scale(1.2, 1.2); }
+  50% {
+    transform: scale(1.3, 1.3); }
+  75% {
+    transform: scale(1.2, 1.2); }
+  100% {
+    transform: scale(1.1, 1.1); } }
 
-.eventos h1{
+.eventos h1 {
   animation-name: animacion;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
   animation-duration: 1s;
-  animation-delay: 0s;
-}
-}
+  animation-delay: 0s; }
