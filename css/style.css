@@ -24,10 +24,11 @@ header {
   margin: auto; }
 
 .menu {
+  padding-left: 38%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
   text-transform: uppercase;
   max-width: 500px;
   margin: auto; }
@@ -75,22 +76,28 @@ header {
   padding-bottom: 20px; }
 
 @media only screen and (min-width: 768px) {
+  .menu{
+    padding-left: 0%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   .informacion img {
-    width: 740px; }
+    width: 600px; }
   .texto1 h2 {
     display: flex;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px; }
   .productos img {
-    width: 740px; }
+    width: 600px; }
   .texto2 h2 {
     display: flex;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px; } }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1500px) {
   .informacion {
     display: grid;
     grid-template-columns: auto;
